@@ -1,0 +1,35 @@
+@use '../utilities/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fuente-base;
+    background-color: $color-fondo;
+    color: $color-principal;
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h1,
+h2 {
+    font-family: $fuente-titulos;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
