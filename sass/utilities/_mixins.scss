@@ -8,3 +8,9 @@
 @mixin portada-bg($url) {
     background-image: url($url);
 }
+
+@mixin celular {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
