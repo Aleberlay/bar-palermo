@@ -35,7 +35,7 @@ a {
 
 @media (max-width: 576px) {
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -138,13 +138,13 @@ header {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: clamp(40px, 8vw, 80px);
   text-shadow: 0 0 10px #f8f9fa;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: clamp(32px, 5vw, 48px);
   text-align: center;
   position: relative;
 }
@@ -222,7 +222,7 @@ h2::after {
 
 .cards_seccion {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
@@ -245,14 +245,6 @@ footer {
 @media (max-width: 768px) {
   section {
     padding: 40px 15px;
-  }
-  h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-  }
-  h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
   }
   .seccion_bienvenido {
     flex-direction: column;
