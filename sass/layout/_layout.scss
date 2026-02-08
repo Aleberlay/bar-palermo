@@ -57,19 +57,19 @@ h2 {
     }
 }
 
-.portada-inicio {
+.portada_inicio {
     @include portada-bg('../img/portada-inicio.png');
 }
 
-.portada-nosotros {
+.portada_nosotros {
     @include portada-bg('../img/portada-nosotros.png');
 }
 
-.portada-contacto {
+.portada_contacto {
     @include portada-bg('../img/portada-contacto.png');
 }
 
-.portada-productos {
+.portada_productos {
     @include portada-bg('../img/portada-productos.png');
 }
 

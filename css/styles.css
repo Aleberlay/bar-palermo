@@ -177,19 +177,19 @@ h2::after {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
-.portada-inicio {
+.portada_inicio {
   background-image: url("../img/portada-inicio.png");
 }
 
-.portada-nosotros {
+.portada_nosotros {
   background-image: url("../img/portada-nosotros.png");
 }
 
-.portada-contacto {
+.portada_contacto {
   background-image: url("../img/portada-contacto.png");
 }
 
-.portada-productos {
+.portada_productos {
   background-image: url("../img/portada-productos.png");
 }
 
