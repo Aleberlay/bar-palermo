@@ -4,19 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nosotros</title>
+    <meta name="robots" content="index, follow">
+
+    <!-- SEO -->
+    <title>Contacto | Bar Palermo</title>
+    <meta name="description"
+        content="¿Querés quejarte o visitarnos? Consultá nuestros horarios de 15hs a 22hs. Estamos en Palermo, el lugar con más bar por metro cuadrado.">
+    <meta name="keywords"
+        content="contacto bar palermo, horarios bar palermo, instagram bar palermo, donde queda bar palermo">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contacto | Bar Palermo">
+    <meta property="og:description"
+        content="Si llegaste por una foto en Instagram, ya viste lo único que sale bien en este bar. ¡Vení a visitarnos!">
+    <meta property="og:image" content="https://bar-palermo.com/img/bar-dentro.jpg">
+    <meta property="og:url" content="https://bar-palermo.com/pages/contact.html">
+    <meta property="og:type" content="website">
 
     <!-- Favicon -->
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
 
-    <!-- Fuente League Spartan -->
+    <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -28,36 +42,60 @@
             ¡Te esperamos!</p>
         <!-- Menú -->
         <nav id="menu">
-            <a href="../index.html">inicio</a> /
-            <a href="../pages/about_us.html">nosotros</a> /
-            <a href="../pages/products.html">productos</a> /
-            <a href="#">contacto</a>
+            <a href="../index.html">Inicio</a> /
+            <a href="../pages/about_us.html">Nosotros</a> /
+            <a href="../pages/products.html">Productos</a> /
+            <a href="#">Contacto</a>
         </nav>
     </header>
 
+    <!-- Sección de información -->
+    <section class="contenedor-palermo">
+        <div class="columna-contenido">
+            <div class="seccion-texto">
+                <h2>Horarios</h2>
+                <div class="item-linea">
+                    <p><span>Lunes a Jueves</span> <span>de 15hs a 22hs</span></p>
+                    <hr>
+                </div>
+                <div class="item-linea">
+                    <p><span>Viernes a Domingo</span> <span>de 16hs a 24hs</span></p>
+                    <hr>
+                </div>
+            </div>
 
-    <section>
-        <div class="formulario">
-            <form action="#" method="post">
-                <label for="nombre">nombre</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-
-                <label for="email">email</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="mensaje">mensaje</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-
-                <button type="submit">enviar</button>
-            </form>
+            <div class="seccion-texto">
+                <h2>Contacto</h2>
+                <div class="item-linea">
+                    <p><span>Instagram</span> <span><a href="https://github.com/Aleberlay/bar-palermo#"
+                                target="_blank">@palermofacts</a></span></p>
+                    <hr>
+                </div>
+                <div class="item-linea">
+                    <p><span>Email</span> <span>contacto@barpalermo.com</span></p>
+                    <hr>
+                </div>
+                <div class="item-linea">
+                    <p><span>Whatsapp</span> <span><a href="https://github.com/Aleberlay/bar-palermo#"
+                                target="_blank">+54 1212-1212</a></span></p>
+                    <hr>
+                </div>
+            </div>
         </div>
 
-        <div class="contacto_info">
-            <p>
-                <a href="https://github.com/Aleberlay/bar-palermo" target="_blank">Instagram @palermofacts</a>
-                <br>
-                <a href="mailto:contacto@barpalermo.com">contacto@barpalermo.com</a>
-            </p>
+        <div class="columna-imagen">
+            <img class="img-contacto" src="../img/bar-dentro.jpg" alt="Bar Palermo">
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa_contacto">
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5209706385!2d-58.42595802341257!3d-34.59101185682189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca860473cf45%3A0xc682915835da07c!2sPalermo%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
+                width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
     </section>
 
